@@ -1,6 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=DM+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 /* Navbar */
-nav {
+@media screen and (max-width: 992px) {
+  .navbar-nav > li > a:hover {
+    border-top: #094886 !important;
+  }
+  .navbar-nav > li > a {
+    border-top: #094886 !important;
+  }
+}
+.navbar {
   background-color: #094886;
   height: 6rem !important;
 }
@@ -8,15 +17,84 @@ nav {
   font-family: "Cormorant", serif;
   font-size: 1.875rem !important;
 }
+.nav-link {
+  background-color: #094886;
+}
 .navbar-nav > li > a {
   font-family: "DM Sans", sans-serif;
   font-size: 0.938rem !important;
   margin: auto 0.75rem;
-  border-top: 3px solid #094886;
+  border-top: 0.1875rem solid #094886;
 }
 .navbar-nav > li > a:hover {
-  border-top: 3px solid #2cb8f0;
+  border-top: 0.1875rem solid #2cb8f0;
 }
-.about {
+#about {
   background-color: #094886;
+  padding: 5% 10%;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+.rounded-circle {
+  width: 16.25rem;
+}
+.description {
+  margin: 7% auto;
+}
+#skills {
+  text-align: center;
+  background-color: #ecf0f3;
+  padding: 3% 0 7% 0;
+}
+.tech-image {
+  margin: 7% 0;
+  width: 120px;
+}
+.heading-rule {
+  display: block;
+  width: 6%;
+  margin: 2% auto 6% auto;
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+h2 {
+  font-family: "DM Sans", sans-serif;
+  margin: 2% auto;
+  text-align: left;
+  margin-left: 5%;
+}
+hr {
+  margin-left: 5%;
+}
+#projects {
+  background-color: #094886;
+  padding: 7% 10%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+.project-image {
+  width: 16.25rem;
+}
+.project-heading {
+  margin-top: 7%;
+}
+#social {
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding: 5% 10%;
+}
+.far,
+.fas,
+.fab {
+  font-family: FontAwesome !important;
+  margin: 1%;
+  font-style: normal;
+}
+.social-icons {
+  padding: 2% 0;
 }
