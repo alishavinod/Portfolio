@@ -16,14 +16,17 @@ const Projects = () => {
     </div>
     <div className="col-lg-6 col-md-6">
       <p className="description">A to do app to jot down your tasks and mark them as completed. You can also clear completed tasks from time to time. The app can be toggled between light mode and dark mode.</p>
+      <a href ="https://github.com/alishavinod/ToDo-App"><button type="button" class="gh btn btn-dark">See On Github</button></a>
       <a href ="https://alishavinod.github.io/ToDo-App"><button type="button" class="btn btn-outline-light">See Online</button></a>
     </div>
+    
   </div>
   <h1 className="project-heading">CALCULATOR</h1>
         <hr className="heading-rule"/>
         <div className="row">
         <div className="col-lg-6 col-md-6">
       <p className="description">A calculator which performs simple calculations using the BODMAS rule. It has 3 themes which can be toggled as per user preference.</p>
+      <a href ="https://github.com/alishavinod/Calculator"><button type="button" class=" gh btn btn-dark">See On Github</button></a>
       <a href ="https://alishavinod.github.io/Calculator"><button type="button" class="btn btn-outline-light">See Online</button></a>
     </div>
     <div className="col-lg-6 col-md-6">
@@ -38,6 +41,7 @@ const Projects = () => {
     </div>
     <div className="col-lg-6 col-md-6">
       <p className="description">A multiplayer Tic Tac Toe game including human vs human and human vs computer mode with 4 levels of difficulty. It was implemented with the minimax algorithm am alpha-beta pruning. Used Unity and C#. Hosted on Github Pages with WebGL.</p>
+      <a href ="https://github.com/alishavinod/NitW-teamINFINIX"><button type="button" class="gh btn btn-dark">See On Github</button></a>
       <a href ="https://tanvishekhar.github.io/TicTacToe/index.html"><button type="button" class="btn btn-outline-light">See Online</button></a>
     </div>
   </div>
@@ -46,7 +50,7 @@ const Projects = () => {
         <div className="row">
     <div className="col-lg-6 col-md-6">
       <p className="description">Used Python and Machine Learning algorithms to predict data. Analysed data in the form of histograms, line plots and scatter plots. Predicts total number of cases on a particular date in the future.</p>
-      <a href="https://github.com/alishavinod/Covid-19_Dataset_Analysis/blob/master/Covid19_Data_Analysis.ipynb"><button type="button" class="btn btn-outline-light">See Online</button></a>
+      <a href="https://github.com/alishavinod/Covid-19_Dataset_Analysis/blob/master/Covid19_Data_Analysis.ipynb"><button type="button" class="btn btn-dark">See On Github</button></a>
     </div>
     <div className="col-lg-6 col-md-6">
     <img className="project-image" alt="Not found" src={covid}></img>
