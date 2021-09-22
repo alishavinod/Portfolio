@@ -23,7 +23,7 @@ const Projects = () => {
         <hr className="heading-rule"/>
         <div className="row">
         <div className="col-lg-6 col-md-6">
-      <p className="description">A multiplayer Tic Tac Toe game including human vs human and human vs computer mode with 4 levels of difficulty. It was implemented with the minimax algorithm am alpha-beta pruning. Used Unity and C#. Hosted on Github Pages with WebGL.</p>
+      <p className="description">A calculator which performs simple calculations using the BODMAS rule. It has 3 themes which can be toggled as per user preference.</p>
       <a href ="https://alishavinod.github.io/Calculator"><button type="button" class="btn btn-outline-light">See Online</button></a>
     </div>
     <div className="col-lg-6 col-md-6">
