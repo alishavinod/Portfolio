@@ -9,7 +9,7 @@ const AboutPage = () => {
     <img className="rounded-circle" alt="Not found" src={profile}></img>
     </div>
     <div className="col-lg-6 col-md-6">
-      <p className="description">I am a full stack web developer who finds immense interest in problem solving and coding. I am a team player and a keen learner.</p>
+      <p className="description">I am a full stack web developer who finds immense interest in problem solving and coding. I also love designing web pages. I am a team player and a keen learner.</p>
     </div>
   </div>
 </div>
